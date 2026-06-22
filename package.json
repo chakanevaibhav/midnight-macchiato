@@ -1,0 +1,39 @@
+{
+  "name": "one-cappuccino-theme",
+  "displayName": "One Cappuccino Theme",
+  "description": "A dark theme inspired by One Monokai and Cappuccino, designed for long coding sessions with clear separation.",
+  "version": "1.0.0",
+  "publisher": "chakanevaibhav",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "cappuccino",
+    "monokai",
+    "one"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chakanevaibhav/one-cappuccino-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Cappuccino",
+        "uiTheme": "vs-dark",
+        "path": "./themes/one-cappuccino-color-theme.json"
+      },
+      {
+        "label": "One Cappuccino Espresso",
+        "uiTheme": "vs-dark",
+        "path": "./themes/one-cappuccino-espresso-color-theme.json"
+      }
+    ]
+  }
+}
