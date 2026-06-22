@@ -1,6 +1,6 @@
 {
-  "name": "one-cappuccino-theme",
-  "displayName": "One Cappuccino Theme",
+  "name": "midnight-macchiato",
+  "displayName": "Midnight Macchiato",
   "description": "A dark theme inspired by One Monokai and Cappuccino, designed for long coding sessions with clear separation.",
   "version": "1.0.0",
   "publisher": "chakanevaibhav",
@@ -20,19 +20,19 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chakanevaibhav/one-cappuccino-theme"
+    "url": "https://github.com/chakanevaibhav/midnight-macchiato"
   },
   "contributes": {
     "themes": [
       {
-        "label": "One Cappuccino",
+        "label": "Midnight Macchiato",
         "uiTheme": "vs-dark",
-        "path": "./themes/one-cappuccino-color-theme.json"
+        "path": "./themes/midnight-macchiato-color-theme.json"
       },
       {
-        "label": "One Cappuccino Espresso",
+        "label": "Midnight Macchiato Espresso",
         "uiTheme": "vs-dark",
-        "path": "./themes/one-cappuccino-espresso-color-theme.json"
+        "path": "./themes/midnight-macchiato-espresso-color-theme.json"
       }
     ]
   }
